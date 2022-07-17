@@ -9,7 +9,7 @@ from tqdm.auto import tqdm
 
 MODEL_PATHS = {
     "base": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base.pt",
-    "upsample": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample.pt",
+    "upsample": "https://storage.googleapis.com/conceptual_12m/cc12m.tsv",
     "base-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base_inpaint.pt",
     "upsample-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample_inpaint.pt",
     "clip/image-enc": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/clip_image_enc.pt",
